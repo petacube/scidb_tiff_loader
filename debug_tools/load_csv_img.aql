@@ -1,0 +1,9 @@
+set lang afl;
+
+set no fetch;
+set timer;
+set ignore errors;
+remove(img_array);
+store(
+  load2d('/mnt/hgfs/scidb/SciDBLoadTiff/LoadTIFF2/tiff_output.csv',3456,5184),
+img_array);
