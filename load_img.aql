@@ -1,0 +1,7 @@
+set lang afl;
+
+set no fetch;
+set timer;
+set ignore-errors;
+remove(img_array);
+store(loadtiff('/mnt/hgfs/scidb/SciDBLoadTiff/LoadTIFF2/_MG_4674.tiff'),img_array);
